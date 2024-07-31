@@ -68,7 +68,7 @@ If another region is desired, it can be specified in the language parameter.
 ### External JAR
 
 - requires JAR with languagetool
-- add feature `external-jar`
+- add feature `extern-jar`
 - specify `jar_location=...`
 
 ### Remote Server
