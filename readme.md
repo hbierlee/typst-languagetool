@@ -68,8 +68,8 @@ If another region is desired, it can be specified in the language parameter.
 ### External JAR
 
 - requires JAR with languagetool
-- add feature `extern-jar`
-- specify `jar_location=...`
+- add feature `--extern-jar`
+- specify `jar-location=...`
 
 ### Remote Server
 
@@ -86,7 +86,7 @@ If another region is desired, it can be specified in the language parameter.
 		- `typst-languagetool watch ...`
 	- Path to check
 		- `typst-languagetool watch --path=<directory or file>`
-		- `typst-languagetool cehck --path=<file>`
+		- `typst-languagetool check --path=<file>`
 	- Different main file can be used
 		- defaults to path
 		- `--main=<file>`
